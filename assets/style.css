@@ -28,8 +28,8 @@ h1 {
     line-height: 1.1;
 }
 #app {
-    min-width: 95vw;
-    height: 95dvh;
+    width: 95dvw;
+    height: 90dvh;
     padding: 2rem;
     text-align: center;
 }
