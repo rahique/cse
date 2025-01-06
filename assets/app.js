@@ -30,13 +30,13 @@
     }
 })();
 document.querySelector('#app').innerHTML = `
-   <iframe
-                src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Asia%2FDhaka&showPrint=0&mode=AGENDA&showCalendars=0&src=YmMyMzQ1NzBmZTkwYzUyYmUzN2EwYzM4ZGJmYjFkMTBhYThmZDJjYTY0YTI2ZTY4NjY5Mzk2MzUyMzgyM2FkOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23AD1457"
-                style="border-width: 0; border-radius: 16px"
-                width="100%"
-                height="100%"
-                frameborder="0"
-                scrolling="no"
-            ></iframe>
+        <iframe
+            src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Asia%2FDhaka&showPrint=0&mode=AGENDA&showCalendars=0&src=YmMyMzQ1NzBmZTkwYzUyYmUzN2EwYzM4ZGJmYjFkMTBhYThmZDJjYTY0YTI2ZTY4NjY5Mzk2MzUyMzgyM2FkOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23AD1457&hl=en&timeformat=12"
+            style="border-width: 0; border-radius: 16px"
+            width="100%"
+            height="100%"
+            frameborder="0"
+            scrolling="no"
+        ></iframe>
 `;
 setupCounter(document.querySelector('#counter'));
